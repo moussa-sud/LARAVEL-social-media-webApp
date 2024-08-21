@@ -1,0 +1,92 @@
+public/css/common.css
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover ;
+    background-image: url(images/background.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_box{
+    background-color: rgb(134, 194, 179);
+    text-align: center;
+    padding: 40px 90px;
+    position: relative;
+    border-radius: 20px ;
+}
+
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px; 
+}
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px; 
+}
+
+.profile-icon{
+    width: 150px;
+    border-radius: 100px;
+    padding: 6px;
+    background: #fff ;
+}
+
+.profile-bottom{
+    color: #999;
+    background: #fff;
+    padding: 60px , 0px ;
+    margin-left: -90px;
+    margin-right: -90px;
+    border-radius: 20px ;
+}
+
+
+
+
+.profile-bottom img{
+
+    width: 15px ;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.profile_box button{
+    background: #fff ;
+    color: rgb(102, 132, 132) ;
+    border: none;
+    border-radius: 6px ;
+    outline: none;
+    padding: 7px 40px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+    font-weight: 16px;
+    font-size: 16px;
+}
+
+.profile_box h3{
+
+
+    margin-top: 20px ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
